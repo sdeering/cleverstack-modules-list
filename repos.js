@@ -22,8 +22,8 @@ var async = require( 'async' );
 var throat = require( 'throat' );
 var cachedResults;
 
-var GITHUB_CLIENT_ID = process.env.GITHUB_CLIENT_ID || 'ba861503f44aa44be939';
-var GITHUB_CLIENT_SECRET = process.env.GITHUB_CLIENT_SECRET || 'fb7d5a721bea1e5c9292765835b342c3e68b3ef6';
+var GITHUB_CLIENT_ID = process.env.GITHUB_CLIENT_ID;
+var GITHUB_CLIENT_SECRET = process.env.GITHUB_CLIENT_SECRET;
 var csOrgs = [ 'cleverstack' ];
 var csKeywords = [ 'cleverstack-module', 'cleverstack-seed' ]; //(additions: frontend, backend)
 
