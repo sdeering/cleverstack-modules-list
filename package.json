@@ -1,26 +1,21 @@
 {
-  "name": "bower-component-list",
+  "name": "cleverstack-module-list",
   "version": "0.1.0",
-  "description": "Aggregated list of components from the Bower registry and GitHub metadata",
+  "description": "Simply lists modules for use with CleverStack.",
   "keywords": [
-    "bower",
-    "package",
-    "manager",
-    "web",
-    "component",
-    "package"
+    "cleverstack",
   ],
-  "homepage": "https://github.com/sindresorhus/bower-component-list",
-  "bugs": "https://github.com/sindresorhus/bower-component-list/issues",
+  "homepage": "https://github.com/sdeering/cleverstack-module-list",
+  "bugs": "https://github.com/sdeering/cleverstack-module-list/issues",
   "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "http://sindresorhus.com"
+    "name": "Sam Deering",
+    "email": "admin@cleverstack.io",
+    "url": "http://cleverstack.io"
   },
-  "main": "component-list.js",
+  "main": "repos.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/sindresorhus/bower-component-list.git"
+    "url": "git://github.com/sdeering/cleverstack-module-list"
   },
   "dependencies": {
     "request": "~2.12.0",
@@ -28,9 +23,9 @@
     "q": "~0.8.12",
     "connect": "~2.7.2",
     "throat": "~1.0.0",
-    "express": "",
-    "bluebird": "",
-    "promise": ""
+    "express": "~3.4.8",
+    "async": "~0.2.9",
+    "cli-color": "~0.2.3"
   },
   "engines": {
     "node": ">=0.8.0",
