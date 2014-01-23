@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Simply lists modules for use with CleverStack.",
   "keywords": [
-    "cleverstack",
+    "cleverstack"
   ],
   "homepage": "https://github.com/sdeering/cleverstack-module-list",
   "bugs": "https://github.com/sdeering/cleverstack-module-list/issues",
