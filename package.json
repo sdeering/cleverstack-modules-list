@@ -12,7 +12,7 @@
     "email": "admin@cleverstack.io",
     "url": "http://cleverstack.io"
   },
-  "main": "repos.js",
+  "main": "server.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/sdeering/cleverstack-module-list"
