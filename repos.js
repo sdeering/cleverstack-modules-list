@@ -139,6 +139,13 @@ function  _getRepos() {
 
                         if ( err == false ) {
                             complete( keywords );
+                        } else {
+                        	// get some bower goodness.
+                        	_fetchRepoKeywords(body.owner.login, body.name, 'bower.json', function ( err, keywords ) {
+		                        if ( err == false ) {
+		                            complete( keywords );
+		                        }
+                        	});
                         }
 
                     });
